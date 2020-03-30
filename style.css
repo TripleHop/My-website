@@ -16,21 +16,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
 
-   
+
+.icons{
   
+  display: flex; 
+  font-size: 50px;
 }
-.nav{
-
+.github:hover{
+  color: red;
 }
-
-/* .icons{
-  display: flex; */
+.linkedin:hover{
+  color: red;
 }
-/* .github{
-  font-size:100px;
-  
-}
-.linkedin{
-  font-size:100px;
+.email:hover{
+  color: red;
 }
