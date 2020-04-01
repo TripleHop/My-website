@@ -4,7 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  /* background-image: url(https://images.pexels.com/photos/3435249/pexels-photo-3435249.jpeg?cs=srgb&dl=abstract-painting-with-red-and-blue-colors-3435249.jpg&fm=jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .container{
   display:flex;
  width: 100vw;
@@ -20,22 +24,67 @@
 .box{
   width: 50%;
   height: 50%;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   
 }
+img{
+  height: 60%;
+  width: 30%;
+  align-self: flex-end;
+  
+}
+.mainbox{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
 header{
   font-size: 60px;
-}
-.nav{
-  
-  padding: 50px;
-  font-size: 20px;
-}
+  color: crimson;
+  padding-top: 50px;
 
+  /* justify-content: flex-start; */
+}
+  .topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-color:red;
+  
+  
+  }
+  .topnav a{
+    color: black;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+   .jwhead{
+    float: left;
+    
+  }
+  .abouttext{
+    height: 50%;
+    width: 30%  ;
+    font-size: 14px;
+  }
+  .navbar a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  padding:20px 20px;
+}
+a:hover{
+  color: rgb(196, 74, 74);
+}
 .icons{
   
   display: flex; 
