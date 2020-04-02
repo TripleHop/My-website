@@ -154,6 +154,7 @@ a{
     position: relative;
     
   }
+  
   .skillgrid{
 
     display: grid;
@@ -168,6 +169,7 @@ a{
     height: 80%;
 
   }
+  
   .flexicon{
   
     font-size: 10.6vh ;
@@ -176,18 +178,18 @@ a{
  /* project*/
 .projectgrid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 .forms{
  display: flex;
  flex-direction: column;
  align-items: center;
  margin-top: 300px;
- 
- 
-  
-  
+ justify-content: center;
+}
+a{
+  text-decoration: none;
 }
 .gridblog{
   
@@ -195,10 +197,12 @@ a{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+
 .blogpost{
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr ;
+  border: solid 5px black;
 }
 #title {
   font-size: 25px;
@@ -210,6 +214,13 @@ a{
 }
 #text{
   font-size: 15px;
+}
+#blogphoto{
+  
+  align-self: center;
+  width: 200px;
+  height: 200px; 
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -266,4 +277,10 @@ a{
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr ;
+}
+.projectgrid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 }
