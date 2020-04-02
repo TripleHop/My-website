@@ -61,18 +61,18 @@ body {
 .box{
   width: 50%;
   height: 50%;
-  min-width: 600px;
+  
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  align-self: center;
+   align-items: center;
+  align-self: center; 
 }
 .navbar a{
   text-decoration: none;
   text-align: center;
   font-size: 20px;
-  padding:20px 20px;
+  margin:20px 20px;
 
 }
  .icons{
@@ -134,11 +134,7 @@ body {
   .image-container img {
     height: 70%;
     display: block;
-    /* padding-top: 30%; */
-    /* width: 300px; */
-    /* position: relative; */
-    /* left: 50px; */
-    /* height: 200px; */
+  
   }
   .abouttext{
     display: flex;
@@ -180,6 +176,18 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+.forms{
+  display: flex;
+  
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 300px;
+ 
+ 
+  
+  
+}
 
 @media only screen and (max-width: 600px) {
    .topnav{ 
@@ -191,4 +199,39 @@ body {
      margin: 0px 7px;
      padding: 0px;
    }
+}
+@media only screen and (max-width: 600px) {
+   .navbar{ 
+     font-size: 16px;
+   }
+
+   .topnav a {
+     display: inline-block;
+     margin: 0px 7px;
+     padding: 0px;
+   }
+}
+@media only screen and (max-width: 600px) {
+   .navbar{ 
+     font-size: 16px;
+   }
+
+ .icons{
+   font-size: 50px;
+   grid-template-columns: 1fr;
+   grid-row: 1fr 1fr 1fr;
+   
+ }
+ .indexhead{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.skillgrid{
+  grid-template-columns: 1fr;
+  grid-row: 1fr 1fr;
+}
+.flexicon{
+  font-size: 85px;
+}
+
 }
