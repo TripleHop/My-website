@@ -1,15 +1,18 @@
 
 
-/*
+
 
   
-  
+.indexhead{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
 
   
 
  
 a:hover{
-  color: rgb(196, 74, 74);
+  color: rgb(0, 238, 255);
 }
 .icons{
   
@@ -17,24 +20,24 @@ a:hover{
   font-size: 100px;
 }
 .github{
-  padding: 50px;
+  margin: 50px;
 }
 .email{
-  padding: 50px;
+  margin: 50px;
 
 }
 .linkedin{
-  padding:50px;
+  margin:50px;
 }
 .github:hover{
-  color: red;
+  color: rgb(0, 238, 255);
 }
 .linkedin:hover{
-  color: red;
+  color: rgb(0, 238, 255);
 }
 .email:hover{
-  color: red;
-} */
+  color: rgb(0, 238, 255);
+}
 
 
 body {
@@ -42,6 +45,11 @@ body {
 }
 
 .container{
+  background-image: url(https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  
+  background-repeat: no-repeat scroll;
+  background-size:cover;
+  background-position:bottom center;
   display:flex;
  width: 100vw;
  height: 100vh;
@@ -79,7 +87,7 @@ body {
 
 /* about page */
 .mainbox{
-  border:3px solid red;
+  
 
   width: 90%;
   height: 90%;
@@ -95,7 +103,7 @@ body {
     color: blue;
  }
  .topnav{
-   background-color: red;
+   background-color:grey;
    font-size: 25px;
  }
 
@@ -133,6 +141,9 @@ body {
     /* height: 200px; */
   }
   .abouttext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /* Skillpage */
   header{
