@@ -4,84 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  /* background-image: url(https://images.pexels.com/photos/3435249/pexels-photo-3435249.jpeg?cs=srgb&dl=abstract-painting-with-red-and-blue-colors-3435249.jpg&fm=jpg); */
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.container{
-  display:flex;
- width: 100vw;
- height: 100vh;
- margin: 0 auto;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- margin: 0px auto;
+/*
+
+  
+  
+
+  
+
  
-}
-
-.box{
-  width: 50%;
-  height: 50%;
-  /* background-color: lightblue; */
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
-img{
-  height: 60%;
-  width: 30%;
-  align-self: flex-end;
-  
-}
-.mainbox{
-  width: 90%;
-  height: 90%;
-  display: flex;
-  flex-direction: column;
-}
-header{
-  font-size: 60px;
-  color: crimson;
-  padding-top: 50px;
-
-  /* justify-content: flex-start; */
-}
-  .topnav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /* overflow: hidden; */
-    background-color:red;
-  
-  
-  }
-  .topnav a{
-    color: black;
-    float: right;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-  }
-   .jwhead{
-    float: left;
-    
-  }
-  .abouttext{
-    height: 50%;
-    width: 30%  ;
-    font-size: 14px;
-  }
-  .navbar a{
-  text-decoration: none;
-  text-align: center;
-  font-size: 20px;
-  padding:20px 20px;
-}
 a:hover{
   color: rgb(196, 74, 74);
 }
@@ -108,4 +38,122 @@ a:hover{
 }
 .email:hover{
   color: red;
+} */
+
+.container{
+  display:flex;
+ width: 100vw;
+ height: 100vh;
+ 
+ margin: 0 auto;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: 0px auto;
+ 
 }
+
+.box{
+  width: 50%;
+  height: 50%;
+  min-width: 600px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  padding:20px 20px;
+
+}
+ .icons{
+  
+  display: flex; 
+  font-size: 100px;
+ } 
+
+
+
+/* about page */
+.mainbox{
+  border:3px solid red;
+
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+ .mainhead{
+    font-size: 100%;
+    float: left;
+    color: blue;
+ }
+ .topnav{
+   background-color: red;
+   font-size: 25px;
+ }
+
+.topnav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  
+  }
+  .topnav a{
+    color: black;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+ 
+  img{
+    padding-top: 30%;
+    
+    max-width: 400px;
+    height: 80vh;
+    width: 60vw;
+    max-height: 600px; 
+    padding-left: 30%; 
+  }
+  .abouttext{
+    padding-top: 30%;
+    padding-left:15%;
+    max-width: 50%;
+    max-height: 100%;
+  }
+  /* Skillpage */
+  header{
+    font-size: 5vh;
+  }
+  .skillgrid p{
+    font-size: 4vh;
+    
+    
+  }
+  .skillgrid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .skillicons{
+   
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  }
+  .flexicon{
+  
+    font-size: 10.6vh ;
+     
+  }
+ 
