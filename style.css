@@ -1,4 +1,5 @@
 
+
 /*
 
   
@@ -34,6 +35,11 @@ a:hover{
 .email:hover{
   color: red;
 } */
+
+
+body {
+  margin: 0px;
+}
 
 .container{
   display:flex;
@@ -84,7 +90,8 @@ a:hover{
 }
  .mainhead{
     font-size: 100%;
-    float: left;
+    display: inline;
+    /* float: left; */
     color: blue;
  }
  .topnav{
@@ -101,19 +108,29 @@ a:hover{
   }
   .topnav a{
     color: black;
-    float: right;
+    /* float: right; */
     text-align: center;
-    padding: 14px 16px;
+    margin: 0px 12px;
+    /* padding: 14px 16px; */
     text-decoration: none;
     
   }
- 
-  img{
-    padding-top: 30%;
-    width: 300px;
-    position: relative;
-    left: 50px;
-    max-height: 700px;
+
+  .image-container {
+    grid-column: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container img {
+    height: 70%;
+    display: block;
+    /* padding-top: 30%; */
+    /* width: 300px; */
+    /* position: relative; */
+    /* left: 50px; */
+    /* height: 200px; */
   }
   .abouttext{
   }
@@ -131,13 +148,14 @@ a:hover{
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+    height: 600px;
   }
   .skillicons{
    
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 80%;
 
   }
   .flexicon{
@@ -150,4 +168,16 @@ a:hover{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+   .topnav{ 
+     font-size: 16px;
+   }
+
+   .topnav a {
+     display: inline-block;
+     margin: 0px 7px;
+     padding: 0px;
+   }
 }
